@@ -21,4 +21,8 @@ client.auth({token: cliArguments.t}, function (e, api) {
         console.log('error:', e);
         console.log('data:', data);
     });
+  api.post('/apps/2798685/build', (e, data) => {
+        console.log('error:', e);
+        console.log('data:', data);
+    }
 });
