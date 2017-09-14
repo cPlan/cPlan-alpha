@@ -18,6 +18,7 @@
     <content src="index.html"/>
 
     <plugin name="cordova-plugin-whitelist" spec="1"/>
+    <plugin name="cordova-plugin-statusbar" spec="2.2.3"/>
     <access origin="*"/>
     <allow-intent href="http://*/*"/>
     <allow-intent href="https://*/*"/>
@@ -35,6 +36,7 @@
         <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png"/>,w
     </platform>
     <platform name="ios">
+        <preference name='StatusBarOverlaysWebView' value='false'/>
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
         <icon src="res/icons/ios/icon-small.png" width="29" height="29"/>
@@ -57,5 +59,4 @@
     </platform>
 
     <preference name='phonegap-version' value='cli-7.0.1'/>
-    <preference name="StatusBarOverlaysWebView" value="false"/>
 </widget>

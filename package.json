@@ -1,0 +1,25 @@
+{
+  "name": "cordova",
+  "version": "1.0.0",
+  "description": "",
+  "main": "remotebuild.js",
+  "devDependencies": {
+    "phonegap-build-api": "^0.4.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.2",
+    "yargs": "^8.0.2"
+  },
+  "scripts": {
+    "remote-build": "ts-node remotebuild.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cPlan/cordova.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cPlan/cordova/issues"
+  },
+  "homepage": "https://github.com/cPlan/cordova#readme"
+}
