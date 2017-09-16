@@ -4,11 +4,9 @@ import * as yargs from 'yargs';
 const cliArguments: any = yargs.argv;
 
 const options = {
-    form: {
-        data: {
-            pull: true,
-            build_count: null
-        }
+    data: {
+        pull: true,
+        build_count: null
     }
 };
 
@@ -21,8 +19,8 @@ client.auth({token: cliArguments.t}, function (e, api) {
         console.log('error:', e);
         console.log('data:', data);
     });
-    api.post('/apps/2798685/build', (e, data) => {
-        console.log('error:', e);
-        console.log('data:', data);
-    });
+    // api.post('/apps/2798685/build', (e, data) => {
+    //     console.log('error:', e);
+    //     console.log('data:', data);
+    // });
 });
