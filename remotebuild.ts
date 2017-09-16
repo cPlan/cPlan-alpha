@@ -11,7 +11,7 @@ const options = {
 };
 
 if (cliArguments.b) {
-    options.form.data.build_count = cliArguments.b as number;
+    options.data.build_count = cliArguments.b as number;
 }
 
 client.auth({token: cliArguments.t}, function (e, api) {
