@@ -25,6 +25,20 @@
         <icon density="xhdpi" src="res/icons/android/xhdpi.png" />
         <icon density="xxhdpi" src="res/icons/android/xxhdpi.png" />
         <icon density="xxxhdpi" src="res/icons/android/xxxhdpi.png" />
+        <!--  Portrait  -->
+        <splash density="port-ldpi" src="res/screens/android/splash-port-ldpi.png"/>
+        <splash density="port-mdpi" src="res/screens/android/splash-port-mdpi.png"/>
+        <splash density="port-hdpi" src="res/screens/android/splash-port-hdpi.png"/>
+        <splash density="port-xhdpi" src="res/screens/android/splash-port-xhdpi.png"/>
+        <splash density="port-xxhdpi" src="res/screens/android/splash-port-xxhdpi.png"/>
+        <splash density="port-xxxhdpi" src="res/screens/android/splash-port-xxxhdpi.png"/>
+        <!--  Landscape  -->
+        <splash density="land-ldpi" src="res/screens/android/splash-land-ldpi.png" />
+        <splash density="land-mdpi" src="res/screens/android/splash-land-mdpi.png" />
+        <splash density="land-hdpi" src="res/screens/android/splash-land-hdpi.png" />
+        <splash density="land-xhdpi" src="res/screens/android/splash-land-xhdpi.png" />
+        <splash density="land-xxhdpi" src="res/screens/android/splash-land-xxhdpi.png" />
+        <splash density="land-xxxhdpi" src="res/screens/android/splash-land-xxxhdpi.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -46,6 +60,14 @@
         <icon height="152" src="res/icons/ios/icon-76@2x.png" width="152" />
         <icon height="167" src="res/icons/ios/icon-167.png" width="167" />
         <icon height="167" src="res/icons/ios/icon-83.5@2x.png" width="167" />
+        <splash src="res/screens/ios/Default@2x~iphone~anyany.png" />
+        <splash src="res/screens/ios/Default@2x~iphone~comany.png" />
+        <splash src="res/screens/ios/Default@3x~iphone~anyany.png" />
+        <splash src="res/screens/ios/Default@3x~iphone~comany.png" />
+        <splash src="res/screens/ios/Default@2x~ipad~anyany.png" />
+        <splash src="res/screens/ios/Default@2x~ipad~comany.png" />
+        <splash src="res/screens/ios/Default@2x~iphone~comcom.png" />
+        <splash src="res/screens/ios/Default@3x~iphone~anycom.png" />        
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#000000" />
     </platform>
