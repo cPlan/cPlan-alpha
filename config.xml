@@ -68,11 +68,10 @@
         <preference name="StatusBarBackgroundColor" value="#000000" />
         <preference name="APP_SECRET" value="c5b33a89-fd3a-4c46-9912-3bd27d7358f2" />
     </platform>
-    <preference name="phonegap-version" value="cli-7.0.1" />
+    <preference name="phonegap-version" value="cli-8.0.0" />
     <engine name="android" spec="~6.1.2" />
-    <engine name="ios" spec="^4.3.1" />
-    <engine name="browser" spec="^5.0.3" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
+    <plugin name="cordova-plugin-appcenter-analytics" spec="^0.1.3" />
     <plugin name="cordova-plugin-appcenter-crashes" spec="^0.1.3" />
 </widget>
