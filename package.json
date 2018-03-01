@@ -1,47 +1,48 @@
 {
-  "name": "cordova",
-  "version": "1.0.0",
-  "description": "",
-  "main": "remotebuild.js",
-  "devDependencies": {
-    "phonegap-build-api": "^0.4.0",
-    "ts-node": "^3.3.0",
-    "typescript": "^2.5.2",
-    "yargs": "^8.0.2"
-  },
-  "scripts": {
-    "remote-build": "ts-node remotebuild.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cPlan/cordova.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cPlan/cordova/issues"
-  },
-  "homepage": "https://github.com/cPlan/cordova#readme",
-  "cordova": {
-    "platforms": [
-      "android",
-      "ios"
-    ],
-    "plugins": {
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-appcenter-analytics": {},
-      "cordova-plugin-appcenter-crashes": {}
+    "name": "cordova",
+    "version": "1.0.0",
+    "description": "",
+    "main": "remotebuild.js",
+    "devDependencies": {
+        "phonegap-build-api": "^0.4.0",
+        "ts-node": "^3.3.0",
+        "typescript": "^2.5.2",
+        "yargs": "^8.0.2"
+    },
+    "scripts": {
+        "remote-build": "ts-node remotebuild.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cPlan/cordova.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cPlan/cordova/issues"
+    },
+    "homepage": "https://github.com/cPlan/cordova#readme",
+    "cordova": {
+        "platforms": [
+            "android",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-appcenter-analytics": {},
+            "cordova-plugin-appcenter-crashes": {},
+            "cordova-plugin-inappbrowser": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "~6.1.2",
+        "cordova-ios": "^4.3.1",
+        "cordova-plugin-appcenter-analytics": "^0.1.3",
+        "cordova-plugin-appcenter-crashes": "^0.1.3",
+        "cordova-plugin-appcenter-shared": "^0.1.3",
+        "cordova-plugin-inappbrowser": "^2.0.2",
+        "cordova-plugin-statusbar": "^2.2.3",
+        "cordova-plugin-whitelist": "^1.3.3"
     }
-  },
-  "dependencies": {
-    "cordova-android": "~6.1.2",
-
-    "cordova-ios": "^4.3.1",
-    "cordova-plugin-appcenter-analytics": "^0.1.3",
-    "cordova-plugin-appcenter-crashes": "^0.1.3",
-    "cordova-plugin-appcenter-shared": "^0.1.3",
-    "cordova-plugin-statusbar": "^2.2.3",
-    "cordova-plugin-whitelist": "^1.3.3"
-  }
 }
