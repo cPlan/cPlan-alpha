@@ -47,7 +47,28 @@
       "patterns": []
     }
   ],
-  "dataGroups": [],
+  "dataGroups": [
+    {
+      "name": "identity",
+      "patterns": [
+        "\\/\\.well-known",
+        "\\/connect",
+        "\\/identity"
+      ],
+      "strategy": "freshness",
+      "maxAge": 0,
+      "version": 1
+    },
+    {
+      "name": "api",
+      "patterns": [
+        "\\/api"
+      ],
+      "strategy": "freshness",
+      "maxAge": 0,
+      "version": 1
+    }
+  ],
   "hashTable": {
     "./0.bb3d7e15f94bd1d8047e.chunk.js": "b7d342b6f1deb95a0323e7452d5b6c1c55dfc79a",
     "./assets/service-worker.js": "3cea0e0175f36abcc31d5aed693dd4a3d12718af",
