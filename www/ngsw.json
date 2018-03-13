@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "index": "./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "./favicon.ico",
+        "./index.html",
+        "./0.bb3d7e15f94bd1d8047e.chunk.js",
+        "./1.6d5b173af4fd9a8f23df.chunk.js",
+        "./2.bcb7cc88dd44cde6fd34.chunk.js",
+        "./3.2d4adf3cd3f921a2ce6b.chunk.js",
+        "./4.b4300877b632df0f04fb.chunk.js",
+        "./5.e3966c21b8e7ecee729a.chunk.js",
+        "./inline.b02de9777adc708a8280.bundle.js",
+        "./main.52f46fce211eb142a98d.bundle.js",
+        "./polyfills.e70939874804409c373d.bundle.js",
+        "./styles.36fbe4eccac3850751cb.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "./assets/service-worker.js",
+        "./assets/css/splash-screen.css",
+        "./assets/icons/android-chrome-192x192.png",
+        "./assets/icons/android-chrome-512x512.png",
+        "./assets/icons/apple-touch-icon.png",
+        "./assets/icons/favicon-16x16.png",
+        "./assets/icons/favicon-32x32.png",
+        "./assets/icons/favicon.ico",
+        "./assets/icons/mstile-150x150.png",
+        "./assets/img/cPlan512.png",
+        "./assets/img/default-profile-picture.png",
+        "./assets/img/favicon.ico",
+        "./assets/img/header-bg.png",
+        "./assets/img/login-logo.png",
+        "./assets/img/logo.png",
+        "./assets/img/wheel.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./0.bb3d7e15f94bd1d8047e.chunk.js": "b7d342b6f1deb95a0323e7452d5b6c1c55dfc79a",
+    "./assets/service-worker.js": "3cea0e0175f36abcc31d5aed693dd4a3d12718af",
+    "./1.6d5b173af4fd9a8f23df.chunk.js": "be342c8b528598f098885275bf84936d034e4203",
+    "./assets/css/splash-screen.css": "5a20d8330d985f3f056256747e34225ecce41e8d",
+    "./2.bcb7cc88dd44cde6fd34.chunk.js": "0400bd31dc60beee70d6facb8909bfc0a338b948",
+    "./assets/icons/android-chrome-192x192.png": "2bdff47d1b9d9d3fd024a81773d0c0424377059e",
+    "./3.2d4adf3cd3f921a2ce6b.chunk.js": "94267444b2f467d263dda8ba3666c3012d4d2287",
+    "./assets/icons/android-chrome-512x512.png": "14fb34eb9d80b88ff4a863ae4fa19dfd5aef7f58",
+    "./4.b4300877b632df0f04fb.chunk.js": "0d26bbf586d3c7ba0b527c9cecd3b2cceb6e8216",
+    "./assets/icons/apple-touch-icon.png": "b50c5e7f5998d1a6314153e2b042c5ae08e196da",
+    "./5.e3966c21b8e7ecee729a.chunk.js": "37f75cafaedd0ffbca7acd2d26a8b86d4eae1e4e",
+    "./assets/icons/favicon-16x16.png": "ba9fb56836cf30b0a2995438f3f9ab70948d0c9f",
+    "./inline.b02de9777adc708a8280.bundle.js": "a1793435bc30c88361566d92f06cc1b40f52917f",
+    "./assets/icons/favicon-32x32.png": "dd01afd52e08429f23792f3e7e5dfde6a8b40bac",
+    "./main.52f46fce211eb142a98d.bundle.js": "306ab63f8430e2775a4b30a01db4f91efc52caca",
+    "./assets/icons/favicon.ico": "737af7c2253907586aa52dd54e75c7b6a22c0dcf",
+    "./polyfills.e70939874804409c373d.bundle.js": "5e46b171a71ca79dda15473caac022a461a225fa",
+    "./assets/icons/mstile-150x150.png": "06ca8505e6bb2ffe666e4ebe8bedea303b428646",
+    "./styles.36fbe4eccac3850751cb.bundle.css": "5cb8ecd3b269e5c9e38e9a7b0595dcc74dce07e0",
+    "./assets/img/cPlan512.png": "b89443d89d1cb955551c85ef3610937bb4d1ac9d",
+    "./favicon.ico": "737af7c2253907586aa52dd54e75c7b6a22c0dcf",
+    "./assets/img/default-profile-picture.png": "ba68d833ad02197dfa114fe6cbad836ffae07f5f",
+    "./index.html": "0288a9dc6ea1aca43b1289199c296e344b14e147",
+    "./assets/img/favicon.ico": "226821810e5d43821b08a68d350fe27544d18560",
+    "./assets/img/header-bg.png": "0fe81b07efb0636d17e2e6ba25dfb9e6590f5e9d",
+    "./assets/img/login-logo.png": "87fdaf0c512a832270f837af7180e1b86e91b3a3",
+    "./assets/img/logo.png": "9488dd092030f7e476a3a0b39d05333657f49583",
+    "./assets/img/wheel.png": "95761c2a0c7a5464e77cb7cb09a98ed4859c3ed3"
+  }
+}
