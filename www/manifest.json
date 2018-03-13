@@ -4,8 +4,6 @@
   "theme_color": "#3c4252",
   "background_color": "#3c4252",
   "display": "standalone",
-  "Scope": "/angular",
-  "start_url": "/angular",
   "icons": [
     {
       "src": "assets/icons/android-chrome-192x192.png",
