@@ -1,12 +1,12 @@
-@angular/core@5.2.6
+@angular/core@5.2.7
 MIT
 MIT
 
-@angular/forms@5.2.6
+@angular/forms@5.2.7
 MIT
 MIT
 
-@angular/material@5.2.3
+@angular/material@5.2.4
 MIT
 The MIT License
 
@@ -53,7 +53,7 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-@angular-devkit/build-optimizer@0.3.1
+@angular-devkit/build-optimizer@0.4.5
 MIT
 The MIT License
 
@@ -77,7 +77,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-@angular/router@5.2.6
+@angular/router@5.2.7
 MIT
 MIT
 
@@ -147,7 +147,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 
-validator@5.7.0
+validator@9.2.0
 MIT
 Copyright (c) 2016 Chris O'Hara <cohara87@gmail.com>
 
@@ -170,7 +170,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-class-validator@0.4.1
+class-validator@0.8.1
 MIT
 MIT
 
@@ -202,11 +202,11 @@ MIT License
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
 
-ng-select@1.0.0-rc.3
+ng-select@1.0.0-rc.5
 ISC
 ISC
 
-@angular/animations@5.2.6
+@angular/animations@5.2.7
 MIT
 MIT
 
@@ -264,7 +264,7 @@ maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.
 
-@angular/common@5.2.6
+@angular/common@5.2.7
 MIT
 MIT
 
@@ -406,7 +406,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-ngx-toastr@8.2.1
+ngx-toastr@8.3.0
 MIT
 The MIT License (MIT)
 
@@ -458,11 +458,11 @@ angular-oauth2-oidc@3.1.4
 MIT
 MIT
 
-@angular/platform-browser@5.2.6
+@angular/platform-browser@5.2.7
 MIT
 MIT
 
-raven-js@3.22.4
+raven-js@3.23.1
 BSD-2-Clause
 Copyright (c) 2018 Sentry (https://sentry.io) and individual contributors.
 All rights reserved.
@@ -552,11 +552,11 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-@angular/platform-browser-dynamic@5.2.6
+@angular/platform-browser-dynamic@5.2.7
 MIT
 MIT
 
-@angular/cdk@5.2.3
+@angular/cdk@5.2.4
 MIT
 The MIT License
 
