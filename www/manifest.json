@@ -3,6 +3,7 @@
   "short_name": "cPlan",
   "theme_color": "#3c4252",
   "background_color": "#3c4252",
+  "start_url": "index.html",
   "display": "standalone",
   "icons": [
     {
