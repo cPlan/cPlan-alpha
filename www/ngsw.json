@@ -64,7 +64,8 @@
     {
       "name": "api",
       "patterns": [
-        "\\/api"
+        "\\/api",
+        "\\/swagger"
       ],
       "strategy": "freshness",
       "maxAge": 0,
